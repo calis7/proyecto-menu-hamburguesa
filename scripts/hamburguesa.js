@@ -22,9 +22,11 @@ hamburger.addEventListener('click', function() {
 
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
+const navBar = document.querySelector('navbar')
 
 function toggleNav() {
     navLinks.classList.toggle('active');
+    navBar.classList.toggle('active');
 }
 
 hamburger.addEventListener('click', toggleNav);
