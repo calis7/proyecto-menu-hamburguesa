@@ -50,6 +50,7 @@ En resumen, este bloque de estilos configura el contenedor .navbar para que func
     /* Establece un ancho máximo para evitar que el logotipo sea demasiado grande */
    height: 10vh;
     /* Mantiene la proporción original del logotipo */
+    border-radius:50% ;
 }
 
 ul {
@@ -102,7 +103,7 @@ ul {
     .nav-links {
         display: none;
         flex-direction: column;
-        gap: 10px;
+        gap: 2rem;
         text-align: center;
         position: absolute;
        
